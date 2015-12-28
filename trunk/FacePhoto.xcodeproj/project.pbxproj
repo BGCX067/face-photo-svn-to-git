@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1765879A151A30D40033DB53 /* CreateNewFBAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 17658798151A30D40033DB53 /* CreateNewFBAlbum.m */; };
+		1765879B151A30D40033DB53 /* CreateNewFBAlbum.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17658799151A30D40033DB53 /* CreateNewFBAlbum.xib */; };
+		178BA20B15177BCD00040EAA /* FolderInfor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA1CE15177BCD00040EAA /* FolderInfor.xib */; };
+		178BA20C15177BCD00040EAA /* leopard-folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 178BA1CF15177BCD00040EAA /* leopard-folder.png */; };
+		178BA20D15177BCD00040EAA /* MyAlbumFolders.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1D115177BCD00040EAA /* MyAlbumFolders.m */; };
+		178BA20E15177BCD00040EAA /* MyAlbumFolders.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA1D215177BCD00040EAA /* MyAlbumFolders.xib */; };
+		178BA20F15177BCD00040EAA /* MyAlbums.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1D415177BCD00040EAA /* MyAlbums.m */; };
+		178BA21015177BCD00040EAA /* MyAlbums_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA1D515177BCD00040EAA /* MyAlbums_iPad.xib */; };
+		178BA21115177BCD00040EAA /* MyAlbums_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA1D615177BCD00040EAA /* MyAlbums_iPhone.xib */; };
+		178BA21215177BCD00040EAA /* ResultViewAlbums.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1D815177BCD00040EAA /* ResultViewAlbums.m */; };
+		178BA21315177BCD00040EAA /* ResultViewAlbums.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA1D915177BCD00040EAA /* ResultViewAlbums.xib */; };
+		178BA21415177BCD00040EAA /* ResultViewPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1DB15177BCD00040EAA /* ResultViewPhotos.m */; };
+		178BA21515177BCD00040EAA /* ResultViewPhotos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA1DC15177BCD00040EAA /* ResultViewPhotos.xib */; };
+		178BA21615177BCD00040EAA /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1E215177BCD00040EAA /* Facebook.m */; };
+		178BA21715177BCD00040EAA /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 178BA1E515177BCD00040EAA /* FBDialog.bundle */; };
+		178BA21815177BCD00040EAA /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1E715177BCD00040EAA /* FBDialog.m */; };
+		178BA21915177BCD00040EAA /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1E915177BCD00040EAA /* FBFrictionlessRequestSettings.m */; };
+		178BA21A15177BCD00040EAA /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1EB15177BCD00040EAA /* FBLoginDialog.m */; };
+		178BA21B15177BCD00040EAA /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1ED15177BCD00040EAA /* FBRequest.m */; };
+		178BA21C15177BCD00040EAA /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1F115177BCD00040EAA /* NSObject+SBJSON.m */; };
+		178BA21D15177BCD00040EAA /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1F315177BCD00040EAA /* NSString+SBJSON.m */; };
+		178BA21E15177BCD00040EAA /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1F515177BCD00040EAA /* SBJSON.m */; };
+		178BA21F15177BCD00040EAA /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1F715177BCD00040EAA /* SBJsonBase.m */; };
+		178BA22015177BCD00040EAA /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1F915177BCD00040EAA /* SBJsonParser.m */; };
+		178BA22115177BCD00040EAA /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1FB15177BCD00040EAA /* SBJsonWriter.m */; };
+		178BA22215177BCD00040EAA /* MyUploads.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA1FE15177BCD00040EAA /* MyUploads.m */; };
+		178BA22315177BCD00040EAA /* MyUploads_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA1FF15177BCD00040EAA /* MyUploads_iPad.xib */; };
+		178BA22415177BCD00040EAA /* MyUploads_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA20015177BCD00040EAA /* MyUploads_iPhone.xib */; };
+		178BA22515177BCD00040EAA /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA20315177BCD00040EAA /* Settings.m */; };
+		178BA22615177BCD00040EAA /* Settings_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA20415177BCD00040EAA /* Settings_iPad.xib */; };
+		178BA22715177BCD00040EAA /* Settings_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA20515177BCD00040EAA /* Settings_iPhone.xib */; };
+		178BA22F15177C1100040EAA /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 178BA22D15177C1100040EAA /* Login.m */; };
+		178BA23015177C1100040EAA /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA22E15177C1100040EAA /* Login.xib */; };
+		3D38B86515021ADD0048B317 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D38B86415021ADD0048B317 /* UIKit.framework */; };
+		3D38B86715021ADD0048B317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D38B86615021ADD0048B317 /* Foundation.framework */; };
+		3D38B86915021ADD0048B317 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D38B86815021ADD0048B317 /* CoreGraphics.framework */; };
+		3D38B86F15021ADD0048B317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B86D15021ADD0048B317 /* InfoPlist.strings */; };
+		3D38B87115021ADD0048B317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D38B87015021ADD0048B317 /* main.m */; };
+		3D38B87515021ADD0048B317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D38B87415021ADD0048B317 /* AppDelegate.m */; };
+		3D38B87A15021ADD0048B317 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B87915021ADD0048B317 /* first.png */; };
+		3D38B87C15021ADD0048B317 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B87B15021ADD0048B317 /* first@2x.png */; };
+		3D38B88115021ADD0048B317 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B88015021ADD0048B317 /* second.png */; };
+		3D38B88315021ADD0048B317 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B88215021ADD0048B317 /* second@2x.png */; };
+		3D38B89715021ADD0048B317 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D38B89615021ADD0048B317 /* SenTestingKit.framework */; };
+		3D38B89815021ADD0048B317 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D38B86415021ADD0048B317 /* UIKit.framework */; };
+		3D38B89915021ADD0048B317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D38B86615021ADD0048B317 /* Foundation.framework */; };
+		3D38B8A115021ADD0048B317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D38B89F15021ADD0048B317 /* InfoPlist.strings */; };
+		3D38B8A415021ADD0048B317 /* FacePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D38B8A315021ADD0048B317 /* FacePhotoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		178BA22915177BCE00040EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178BA1DE15177BCD00040EAA /* facebook-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "facebook-ios-sdk";
+		};
+		3D38B89A15021ADD0048B317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D38B85715021ADD0048B317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D38B85F15021ADD0048B317;
+			remoteInfo = FacePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17658797151A30D40033DB53 /* CreateNewFBAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewFBAlbum.h; sourceTree = "<group>"; };
+		17658798151A30D40033DB53 /* CreateNewFBAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewFBAlbum.m; sourceTree = "<group>"; };
+		17658799151A30D40033DB53 /* CreateNewFBAlbum.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateNewFBAlbum.xib; sourceTree = "<group>"; };
+		178BA1CE15177BCD00040EAA /* FolderInfor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FolderInfor.xib; sourceTree = "<group>"; };
+		178BA1CF15177BCD00040EAA /* leopard-folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leopard-folder.png"; sourceTree = "<group>"; };
+		178BA1D015177BCD00040EAA /* MyAlbumFolders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlbumFolders.h; sourceTree = "<group>"; };
+		178BA1D115177BCD00040EAA /* MyAlbumFolders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlbumFolders.m; sourceTree = "<group>"; };
+		178BA1D215177BCD00040EAA /* MyAlbumFolders.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAlbumFolders.xib; sourceTree = "<group>"; };
+		178BA1D315177BCD00040EAA /* MyAlbums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlbums.h; sourceTree = "<group>"; };
+		178BA1D415177BCD00040EAA /* MyAlbums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlbums.m; sourceTree = "<group>"; };
+		178BA1D515177BCD00040EAA /* MyAlbums_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAlbums_iPad.xib; sourceTree = "<group>"; };
+		178BA1D615177BCD00040EAA /* MyAlbums_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAlbums_iPhone.xib; sourceTree = "<group>"; };
+		178BA1D715177BCD00040EAA /* ResultViewAlbums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewAlbums.h; sourceTree = "<group>"; };
+		178BA1D815177BCD00040EAA /* ResultViewAlbums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewAlbums.m; sourceTree = "<group>"; };
+		178BA1D915177BCD00040EAA /* ResultViewAlbums.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewAlbums.xib; sourceTree = "<group>"; };
+		178BA1DA15177BCD00040EAA /* ResultViewPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewPhotos.h; sourceTree = "<group>"; };
+		178BA1DB15177BCD00040EAA /* ResultViewPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewPhotos.m; sourceTree = "<group>"; };
+		178BA1DC15177BCD00040EAA /* ResultViewPhotos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewPhotos.xib; sourceTree = "<group>"; };
+		178BA1DE15177BCD00040EAA /* facebook-ios-sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "facebook-ios-sdk.xcodeproj"; sourceTree = "<group>"; };
+		178BA1E115177BCD00040EAA /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		178BA1E215177BCD00040EAA /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		178BA1E315177BCD00040EAA /* facebook_ios_sdk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facebook_ios_sdk_Prefix.pch; sourceTree = "<group>"; };
+		178BA1E415177BCD00040EAA /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		178BA1E515177BCD00040EAA /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		178BA1E615177BCD00040EAA /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		178BA1E715177BCD00040EAA /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		178BA1E815177BCD00040EAA /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		178BA1E915177BCD00040EAA /* FBFrictionlessRequestSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFrictionlessRequestSettings.m; sourceTree = "<group>"; };
+		178BA1EA15177BCD00040EAA /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		178BA1EB15177BCD00040EAA /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		178BA1EC15177BCD00040EAA /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		178BA1ED15177BCD00040EAA /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		178BA1EF15177BCD00040EAA /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		178BA1F015177BCD00040EAA /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		178BA1F115177BCD00040EAA /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		178BA1F215177BCD00040EAA /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		178BA1F315177BCD00040EAA /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		178BA1F415177BCD00040EAA /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		178BA1F515177BCD00040EAA /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		178BA1F615177BCD00040EAA /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		178BA1F715177BCD00040EAA /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		178BA1F815177BCD00040EAA /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		178BA1F915177BCD00040EAA /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		178BA1FA15177BCD00040EAA /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		178BA1FB15177BCD00040EAA /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		178BA1FD15177BCD00040EAA /* MyUploads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUploads.h; sourceTree = "<group>"; };
+		178BA1FE15177BCD00040EAA /* MyUploads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUploads.m; sourceTree = "<group>"; };
+		178BA1FF15177BCD00040EAA /* MyUploads_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyUploads_iPad.xib; sourceTree = "<group>"; };
+		178BA20015177BCD00040EAA /* MyUploads_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyUploads_iPhone.xib; sourceTree = "<group>"; };
+		178BA20215177BCD00040EAA /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		178BA20315177BCD00040EAA /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		178BA20415177BCD00040EAA /* Settings_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Settings_iPad.xib; sourceTree = "<group>"; };
+		178BA20515177BCD00040EAA /* Settings_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Settings_iPhone.xib; sourceTree = "<group>"; };
+		178BA22C15177C1100040EAA /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Login.h; path = Login/Login.h; sourceTree = "<group>"; };
+		178BA22D15177C1100040EAA /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Login.m; path = Login/Login.m; sourceTree = "<group>"; };
+		178BA22E15177C1100040EAA /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Login.xib; path = Login/Login.xib; sourceTree = "<group>"; };
+		3D38B86015021ADD0048B317 /* FacePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D38B86415021ADD0048B317 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D38B86615021ADD0048B317 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D38B86815021ADD0048B317 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D38B86C15021ADD0048B317 /* FacePhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacePhoto-Info.plist"; sourceTree = "<group>"; };
+		3D38B86E15021ADD0048B317 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D38B87015021ADD0048B317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D38B87215021ADD0048B317 /* FacePhoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacePhoto-Prefix.pch"; sourceTree = "<group>"; };
+		3D38B87315021ADD0048B317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D38B87415021ADD0048B317 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D38B87915021ADD0048B317 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		3D38B87B15021ADD0048B317 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		3D38B88015021ADD0048B317 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		3D38B88215021ADD0048B317 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3D38B89515021ADD0048B317 /* FacePhotoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacePhotoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D38B89615021ADD0048B317 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D38B89E15021ADD0048B317 /* FacePhotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacePhotoTests-Info.plist"; sourceTree = "<group>"; };
+		3D38B8A015021ADD0048B317 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D38B8A215021ADD0048B317 /* FacePhotoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacePhotoTests.h; sourceTree = "<group>"; };
+		3D38B8A315021ADD0048B317 /* FacePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacePhotoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D38B85D15021ADD0048B317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D38B86515021ADD0048B317 /* UIKit.framework in Frameworks */,
+				3D38B86715021ADD0048B317 /* Foundation.framework in Frameworks */,
+				3D38B86915021ADD0048B317 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D38B89115021ADD0048B317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D38B89715021ADD0048B317 /* SenTestingKit.framework in Frameworks */,
+				3D38B89815021ADD0048B317 /* UIKit.framework in Frameworks */,
+				3D38B89915021ADD0048B317 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178BA1CC15177BCD00040EAA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				178BA22B15177BD800040EAA /* Login */,
+				178BA1CD15177BCD00040EAA /* Albums */,
+				178BA1FC15177BCD00040EAA /* MyUploads */,
+				178BA20115177BCD00040EAA /* Settings */,
+				178BA20615177BCD00040EAA /* src */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		178BA1CD15177BCD00040EAA /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				178BA1CE15177BCD00040EAA /* FolderInfor.xib */,
+				178BA1CF15177BCD00040EAA /* leopard-folder.png */,
+				178BA1D015177BCD00040EAA /* MyAlbumFolders.h */,
+				178BA1D115177BCD00040EAA /* MyAlbumFolders.m */,
+				178BA1D215177BCD00040EAA /* MyAlbumFolders.xib */,
+				178BA1D315177BCD00040EAA /* MyAlbums.h */,
+				178BA1D415177BCD00040EAA /* MyAlbums.m */,
+				178BA1D515177BCD00040EAA /* MyAlbums_iPad.xib */,
+				178BA1D615177BCD00040EAA /* MyAlbums_iPhone.xib */,
+				178BA1D715177BCD00040EAA /* ResultViewAlbums.h */,
+				178BA1D815177BCD00040EAA /* ResultViewAlbums.m */,
+				178BA1D915177BCD00040EAA /* ResultViewAlbums.xib */,
+				178BA1DA15177BCD00040EAA /* ResultViewPhotos.h */,
+				178BA1DB15177BCD00040EAA /* ResultViewPhotos.m */,
+				178BA1DC15177BCD00040EAA /* ResultViewPhotos.xib */,
+				178BA1DD15177BCD00040EAA /* src */,
+				17658797151A30D40033DB53 /* CreateNewFBAlbum.h */,
+				17658798151A30D40033DB53 /* CreateNewFBAlbum.m */,
+				17658799151A30D40033DB53 /* CreateNewFBAlbum.xib */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+		178BA1DD15177BCD00040EAA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				178BA1DE15177BCD00040EAA /* facebook-ios-sdk.xcodeproj */,
+				178BA1E115177BCD00040EAA /* Facebook.h */,
+				178BA1E215177BCD00040EAA /* Facebook.m */,
+				178BA1E315177BCD00040EAA /* facebook_ios_sdk_Prefix.pch */,
+				178BA1E415177BCD00040EAA /* FBConnect.h */,
+				178BA1E515177BCD00040EAA /* FBDialog.bundle */,
+				178BA1E615177BCD00040EAA /* FBDialog.h */,
+				178BA1E715177BCD00040EAA /* FBDialog.m */,
+				178BA1E815177BCD00040EAA /* FBFrictionlessRequestSettings.h */,
+				178BA1E915177BCD00040EAA /* FBFrictionlessRequestSettings.m */,
+				178BA1EA15177BCD00040EAA /* FBLoginDialog.h */,
+				178BA1EB15177BCD00040EAA /* FBLoginDialog.m */,
+				178BA1EC15177BCD00040EAA /* FBRequest.h */,
+				178BA1ED15177BCD00040EAA /* FBRequest.m */,
+				178BA1EE15177BCD00040EAA /* JSON */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		178BA1DF15177BCD00040EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178BA22A15177BCE00040EAA /* libfacebook_ios_sdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178BA1EE15177BCD00040EAA /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				178BA1EF15177BCD00040EAA /* JSON.h */,
+				178BA1F015177BCD00040EAA /* NSObject+SBJSON.h */,
+				178BA1F115177BCD00040EAA /* NSObject+SBJSON.m */,
+				178BA1F215177BCD00040EAA /* NSString+SBJSON.h */,
+				178BA1F315177BCD00040EAA /* NSString+SBJSON.m */,
+				178BA1F415177BCD00040EAA /* SBJSON.h */,
+				178BA1F515177BCD00040EAA /* SBJSON.m */,
+				178BA1F615177BCD00040EAA /* SBJsonBase.h */,
+				178BA1F715177BCD00040EAA /* SBJsonBase.m */,
+				178BA1F815177BCD00040EAA /* SBJsonParser.h */,
+				178BA1F915177BCD00040EAA /* SBJsonParser.m */,
+				178BA1FA15177BCD00040EAA /* SBJsonWriter.h */,
+				178BA1FB15177BCD00040EAA /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		178BA1FC15177BCD00040EAA /* MyUploads */ = {
+			isa = PBXGroup;
+			children = (
+				178BA1FD15177BCD00040EAA /* MyUploads.h */,
+				178BA1FE15177BCD00040EAA /* MyUploads.m */,
+				178BA1FF15177BCD00040EAA /* MyUploads_iPad.xib */,
+				178BA20015177BCD00040EAA /* MyUploads_iPhone.xib */,
+			);
+			path = MyUploads;
+			sourceTree = "<group>";
+		};
+		178BA20115177BCD00040EAA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				178BA20215177BCD00040EAA /* Settings.h */,
+				178BA20315177BCD00040EAA /* Settings.m */,
+				178BA20415177BCD00040EAA /* Settings_iPad.xib */,
+				178BA20515177BCD00040EAA /* Settings_iPhone.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		178BA20615177BCD00040EAA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				178BA20715177BCD00040EAA /* JSON */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		178BA20715177BCD00040EAA /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		178BA22B15177BD800040EAA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				178BA22C15177C1100040EAA /* Login.h */,
+				178BA22D15177C1100040EAA /* Login.m */,
+				178BA22E15177C1100040EAA /* Login.xib */,
+			);
+			name = Login;
+			path = FacePhoto/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		3D38B85515021ADD0048B317 = {
+			isa = PBXGroup;
+			children = (
+				3D38B86A15021ADD0048B317 /* FacePhoto */,
+				3D38B89C15021ADD0048B317 /* FacePhotoTests */,
+				3D38B86315021ADD0048B317 /* Frameworks */,
+				3D38B86115021ADD0048B317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D38B86115021ADD0048B317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B86015021ADD0048B317 /* FacePhoto.app */,
+				3D38B89515021ADD0048B317 /* FacePhotoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D38B86315021ADD0048B317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B86415021ADD0048B317 /* UIKit.framework */,
+				3D38B86615021ADD0048B317 /* Foundation.framework */,
+				3D38B86815021ADD0048B317 /* CoreGraphics.framework */,
+				3D38B89615021ADD0048B317 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D38B86A15021ADD0048B317 /* FacePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				178BA1CC15177BCD00040EAA /* Classes */,
+				3D38B87315021ADD0048B317 /* AppDelegate.h */,
+				3D38B87415021ADD0048B317 /* AppDelegate.m */,
+				3D38B87915021ADD0048B317 /* first.png */,
+				3D38B87B15021ADD0048B317 /* first@2x.png */,
+				3D38B88015021ADD0048B317 /* second.png */,
+				3D38B88215021ADD0048B317 /* second@2x.png */,
+				3D38B86B15021ADD0048B317 /* Supporting Files */,
+			);
+			path = FacePhoto;
+			sourceTree = "<group>";
+		};
+		3D38B86B15021ADD0048B317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B86C15021ADD0048B317 /* FacePhoto-Info.plist */,
+				3D38B86D15021ADD0048B317 /* InfoPlist.strings */,
+				3D38B87015021ADD0048B317 /* main.m */,
+				3D38B87215021ADD0048B317 /* FacePhoto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D38B89C15021ADD0048B317 /* FacePhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B8A215021ADD0048B317 /* FacePhotoTests.h */,
+				3D38B8A315021ADD0048B317 /* FacePhotoTests.m */,
+				3D38B89D15021ADD0048B317 /* Supporting Files */,
+			);
+			path = FacePhotoTests;
+			sourceTree = "<group>";
+		};
+		3D38B89D15021ADD0048B317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D38B89E15021ADD0048B317 /* FacePhotoTests-Info.plist */,
+				3D38B89F15021ADD0048B317 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D38B85F15021ADD0048B317 /* FacePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D38B8A715021ADD0048B317 /* Build configuration list for PBXNativeTarget "FacePhoto" */;
+			buildPhases = (
+				3D38B85C15021ADD0048B317 /* Sources */,
+				3D38B85D15021ADD0048B317 /* Frameworks */,
+				3D38B85E15021ADD0048B317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacePhoto;
+			productName = FacePhoto;
+			productReference = 3D38B86015021ADD0048B317 /* FacePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D38B89415021ADD0048B317 /* FacePhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D38B8AA15021ADD0048B317 /* Build configuration list for PBXNativeTarget "FacePhotoTests" */;
+			buildPhases = (
+				3D38B89015021ADD0048B317 /* Sources */,
+				3D38B89115021ADD0048B317 /* Frameworks */,
+				3D38B89215021ADD0048B317 /* Resources */,
+				3D38B89315021ADD0048B317 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D38B89B15021ADD0048B317 /* PBXTargetDependency */,
+			);
+			name = FacePhotoTests;
+			productName = FacePhotoTests;
+			productReference = 3D38B89515021ADD0048B317 /* FacePhotoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D38B85715021ADD0048B317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3D38B85A15021ADD0048B317 /* Build configuration list for PBXProject "FacePhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D38B85515021ADD0048B317;
+			productRefGroup = 3D38B86115021ADD0048B317 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 178BA1DF15177BCD00040EAA /* Products */;
+					ProjectRef = 178BA1DE15177BCD00040EAA /* facebook-ios-sdk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3D38B85F15021ADD0048B317 /* FacePhoto */,
+				3D38B89415021ADD0048B317 /* FacePhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		178BA22A15177BCE00040EAA /* libfacebook_ios_sdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libfacebook_ios_sdk.a;
+			remoteRef = 178BA22915177BCE00040EAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D38B85E15021ADD0048B317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D38B86F15021ADD0048B317 /* InfoPlist.strings in Resources */,
+				3D38B87A15021ADD0048B317 /* first.png in Resources */,
+				3D38B87C15021ADD0048B317 /* first@2x.png in Resources */,
+				3D38B88115021ADD0048B317 /* second.png in Resources */,
+				3D38B88315021ADD0048B317 /* second@2x.png in Resources */,
+				178BA20B15177BCD00040EAA /* FolderInfor.xib in Resources */,
+				178BA20C15177BCD00040EAA /* leopard-folder.png in Resources */,
+				178BA20E15177BCD00040EAA /* MyAlbumFolders.xib in Resources */,
+				178BA21015177BCD00040EAA /* MyAlbums_iPad.xib in Resources */,
+				178BA21115177BCD00040EAA /* MyAlbums_iPhone.xib in Resources */,
+				178BA21315177BCD00040EAA /* ResultViewAlbums.xib in Resources */,
+				178BA21515177BCD00040EAA /* ResultViewPhotos.xib in Resources */,
+				178BA21715177BCD00040EAA /* FBDialog.bundle in Resources */,
+				178BA22315177BCD00040EAA /* MyUploads_iPad.xib in Resources */,
+				178BA22415177BCD00040EAA /* MyUploads_iPhone.xib in Resources */,
+				178BA22615177BCD00040EAA /* Settings_iPad.xib in Resources */,
+				178BA22715177BCD00040EAA /* Settings_iPhone.xib in Resources */,
+				178BA23015177C1100040EAA /* Login.xib in Resources */,
+				1765879B151A30D40033DB53 /* CreateNewFBAlbum.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D38B89215021ADD0048B317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D38B8A115021ADD0048B317 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D38B89315021ADD0048B317 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D38B85C15021ADD0048B317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D38B87115021ADD0048B317 /* main.m in Sources */,
+				3D38B87515021ADD0048B317 /* AppDelegate.m in Sources */,
+				178BA20D15177BCD00040EAA /* MyAlbumFolders.m in Sources */,
+				178BA20F15177BCD00040EAA /* MyAlbums.m in Sources */,
+				178BA21215177BCD00040EAA /* ResultViewAlbums.m in Sources */,
+				178BA21415177BCD00040EAA /* ResultViewPhotos.m in Sources */,
+				178BA21615177BCD00040EAA /* Facebook.m in Sources */,
+				178BA21815177BCD00040EAA /* FBDialog.m in Sources */,
+				178BA21915177BCD00040EAA /* FBFrictionlessRequestSettings.m in Sources */,
+				178BA21A15177BCD00040EAA /* FBLoginDialog.m in Sources */,
+				178BA21B15177BCD00040EAA /* FBRequest.m in Sources */,
+				178BA21C15177BCD00040EAA /* NSObject+SBJSON.m in Sources */,
+				178BA21D15177BCD00040EAA /* NSString+SBJSON.m in Sources */,
+				178BA21E15177BCD00040EAA /* SBJSON.m in Sources */,
+				178BA21F15177BCD00040EAA /* SBJsonBase.m in Sources */,
+				178BA22015177BCD00040EAA /* SBJsonParser.m in Sources */,
+				178BA22115177BCD00040EAA /* SBJsonWriter.m in Sources */,
+				178BA22215177BCD00040EAA /* MyUploads.m in Sources */,
+				178BA22515177BCD00040EAA /* Settings.m in Sources */,
+				178BA22F15177C1100040EAA /* Login.m in Sources */,
+				1765879A151A30D40033DB53 /* CreateNewFBAlbum.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D38B89015021ADD0048B317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D38B8A415021ADD0048B317 /* FacePhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D38B89B15021ADD0048B317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D38B85F15021ADD0048B317 /* FacePhoto */;
+			targetProxy = 3D38B89A15021ADD0048B317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D38B86D15021ADD0048B317 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D38B86E15021ADD0048B317 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D38B89F15021ADD0048B317 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D38B8A015021ADD0048B317 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D38B8A515021ADD0048B317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D38B8A615021ADD0048B317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D38B8A815021ADD0048B317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacePhoto/FacePhoto-Prefix.pch";
+				INFOPLIST_FILE = "FacePhoto/FacePhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D38B8A915021ADD0048B317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacePhoto/FacePhoto-Prefix.pch";
+				INFOPLIST_FILE = "FacePhoto/FacePhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D38B8AB15021ADD0048B317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FacePhoto.app/FacePhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacePhoto/FacePhoto-Prefix.pch";
+				INFOPLIST_FILE = "FacePhotoTests/FacePhotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3D38B8AC15021ADD0048B317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FacePhoto.app/FacePhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacePhoto/FacePhoto-Prefix.pch";
+				INFOPLIST_FILE = "FacePhotoTests/FacePhotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D38B85A15021ADD0048B317 /* Build configuration list for PBXProject "FacePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D38B8A515021ADD0048B317 /* Debug */,
+				3D38B8A615021ADD0048B317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D38B8A715021ADD0048B317 /* Build configuration list for PBXNativeTarget "FacePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D38B8A815021ADD0048B317 /* Debug */,
+				3D38B8A915021ADD0048B317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D38B8AA15021ADD0048B317 /* Build configuration list for PBXNativeTarget "FacePhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D38B8AB15021ADD0048B317 /* Debug */,
+				3D38B8AC15021ADD0048B317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D38B85715021ADD0048B317 /* Project object */;
+}
